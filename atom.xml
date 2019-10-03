@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520zym.github.io/</id>
     <title>Gridea</title>
-    <updated>2019-10-03T12:25:20.904Z</updated>
+    <updated>2019-10-03T12:27:56.818Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520zym.github.io/"/>
     <link rel="self" href="https://520zym.github.io//atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://520zym.github.io//images/avatar.png</logo>
     <icon>https://520zym.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[哈哈哈哈哈哈哈哈哈哈]]></title>
+        <id>https://520zym.github.io//post/ha-ha-ha-ha-ha-ha-ha-ha-ha-ha</id>
+        <link href="https://520zym.github.io//post/ha-ha-ha-ha-ha-ha-ha-ha-ha-ha">
+        </link>
+        <updated>2019-10-03T12:26:56.000Z</updated>
+        <content type="html"><![CDATA[<p>132</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://520zym.github.io//post/hello-gridea</id>
