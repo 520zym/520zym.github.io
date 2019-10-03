@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520zym.github.io/</id>
     <title>我爱吃土豆</title>
-    <updated>2019-10-03T15:47:28.254Z</updated>
+    <updated>2019-10-03T15:54:25.003Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520zym.github.io/"/>
     <link rel="self" href="https://520zym.github.io//atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://520zym.github.io//images/avatar.png</logo>
     <icon>https://520zym.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 我爱吃土豆</rights>
+    <entry>
+        <title type="html"><![CDATA[阿里云轻量应用服务器+WordPress搭建博客记录]]></title>
+        <id>https://520zym.github.io//post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu</id>
+        <link href="https://520zym.github.io//post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu">
+        </link>
+        <updated>2019-10-03T15:48:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>靠着阿里云学生优惠，买了一台轻量应用服务器来折腾。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>靠着阿里云学生优惠，买了一台轻量应用服务器来折腾。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Github客户端下载慢的解决方法]]></title>
         <id>https://520zym.github.io//post/github-ke-hu-duan-xia-zai-man-de-jie-jue-fang-fa</id>
