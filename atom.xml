@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520zym.github.io/</id>
-    <title>我爱吃土豆</title>
-    <updated>2019-11-07T13:42:10.187Z</updated>
+    <title>麻瓜的土豆</title>
+    <updated>2019-11-07T14:02:29.883Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520zym.github.io/"/>
     <link rel="self" href="https://520zym.github.io//atom.xml"/>
     <subtitle>记得开心哦</subtitle>
     <logo>https://520zym.github.io//images/avatar.png</logo>
     <icon>https://520zym.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, 我爱吃土豆</rights>
+    <rights>All rights reserved 2019, 麻瓜的土豆</rights>
     <entry>
         <title type="html"><![CDATA[乱糟糟]]></title>
         <id>https://520zym.github.io//post/dream-day</id>
