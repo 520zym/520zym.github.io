@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://520zym.github.io/</id>
     <title>我爱吃土豆</title>
-    <updated>2019-11-07T13:40:12.038Z</updated>
+    <updated>2019-11-07T13:42:10.187Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://520zym.github.io/"/>
+    <link rel="self" href="https://520zym.github.io//atom.xml"/>
     <subtitle>记得开心哦</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://520zym.github.io//images/avatar.png</logo>
+    <icon>https://520zym.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 我爱吃土豆</rights>
     <entry>
-        <title type="html"><![CDATA[关于]]></title>
-        <id>http://localhost:4000/post/about</id>
-        <link href="http://localhost:4000/post/about">
-        </link>
-        <updated>2019-11-07T13:38:14.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[乱糟糟]]></title>
-        <id>http://localhost:4000/post/dream-day</id>
-        <link href="http://localhost:4000/post/dream-day">
+        <id>https://520zym.github.io//post/dream-day</id>
+        <link href="https://520zym.github.io//post/dream-day">
         </link>
         <updated>2019-11-07T12:59:23.000Z</updated>
         <summary type="html"><![CDATA[<p>心里一团糟，迷茫，惊恐，不知所措。</p>
@@ -30,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[阿里云轻量应用服务器+WordPress搭建博客记录]]></title>
-        <id>http://localhost:4000/post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu</id>
-        <link href="http://localhost:4000/post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu">
+        <id>https://520zym.github.io//post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu</id>
+        <link href="https://520zym.github.io//post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu">
         </link>
         <updated>2019-10-03T15:48:12.000Z</updated>
         <summary type="html"><![CDATA[<p>靠着阿里云学生优惠，买了一台轻量应用服务器来折腾。</p>
@@ -41,8 +34,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Github客户端下载慢的解决方法]]></title>
-        <id>http://localhost:4000/post/github-ke-hu-duan-xia-zai-man-de-jie-jue-fang-fa</id>
-        <link href="http://localhost:4000/post/github-ke-hu-duan-xia-zai-man-de-jie-jue-fang-fa">
+        <id>https://520zym.github.io//post/github-ke-hu-duan-xia-zai-man-de-jie-jue-fang-fa</id>
+        <link href="https://520zym.github.io//post/github-ke-hu-duan-xia-zai-man-de-jie-jue-fang-fa">
         </link>
         <updated>2019-10-03T15:42:12.000Z</updated>
         <summary type="html"><![CDATA[<p>Github客户端下载慢的解决方法</p>
