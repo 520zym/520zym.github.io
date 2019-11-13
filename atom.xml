@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520zym.github.io/</id>
     <title>麻瓜的土豆</title>
-    <updated>2019-11-13T11:45:09.771Z</updated>
+    <updated>2019-11-13T12:12:35.431Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520zym.github.io/"/>
     <link rel="self" href="https://520zym.github.io//atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://520zym.github.io//images/avatar.png</logo>
     <icon>https://520zym.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 麻瓜的土豆</rights>
+    <entry>
+        <title type="html"><![CDATA[🎬《红辣椒》]]></title>
+        <id>https://520zym.github.io//post/pybH6IhSr</id>
+        <link href="https://520zym.github.io//post/pybH6IhSr">
+        </link>
+        <updated>2019-11-13T11:46:26.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[要自闭了]]></title>
         <id>https://520zym.github.io//post/yao-zi-bi-liao</id>
@@ -19,17 +26,6 @@
         <summary type="html"><![CDATA[<p>日常自闭。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>日常自闭。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Test]]></title>
-        <id>https://520zym.github.io//post/test</id>
-        <link href="https://520zym.github.io//post/test">
-        </link>
-        <updated>2019-11-13T03:17:55.000Z</updated>
-        <summary type="html"><![CDATA[<p>Just a Test.</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Just a Test.</p>
 ]]></content>
     </entry>
     <entry>
