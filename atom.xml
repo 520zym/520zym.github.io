@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520zym.github.io/</id>
     <title>z&apos;s there</title>
-    <updated>2019-11-14T03:59:57.551Z</updated>
+    <updated>2019-11-14T16:21:55.695Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520zym.github.io/"/>
     <link rel="self" href="https://520zym.github.io//atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://520zym.github.io//images/avatar.png</logo>
     <icon>https://520zym.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, z&apos;s there</rights>
+    <entry>
+        <title type="html"><![CDATA[😢 我好菜]]></title>
+        <id>https://520zym.github.io//post/9AWuj_uFR</id>
+        <link href="https://520zym.github.io//post/9AWuj_uFR">
+        </link>
+        <updated>2019-11-14T15:32:53.000Z</updated>
+        <summary type="html"><![CDATA[<p>我好难啊 😰</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我好难啊 😰</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Flag高高挂起]]></title>
         <id>https://520zym.github.io//post/4oIU-mR82</id>
@@ -22,7 +33,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[🎬《红辣椒》]]></title>
+        <title type="html"><![CDATA[🤠《红辣椒》]]></title>
         <id>https://520zym.github.io//post/pybH6IhSr</id>
         <link href="https://520zym.github.io//post/pybH6IhSr">
         </link>
@@ -75,5 +86,12 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>Github客户端下载慢的解决方法</p>
 ]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Time Test]]></title>
+        <id>https://520zym.github.io//post/tQtKVuxs_</id>
+        <link href="https://520zym.github.io//post/tQtKVuxs_">
+        </link>
+        <updated>2017-11-01T14:48:27.000Z</updated>
     </entry>
 </feed>

@@ -431,8 +431,8 @@ td {
 .post-container .post .post-feature-image {
   display: block;
   width: 100%;
-  padding-top: 32.6%;
-  border-radius: 2px;
+  padding-top: 40%;
+  border-radius: 14px;
   overflow: hidden;
   background-size: cover;
   background-position: center;
@@ -442,6 +442,7 @@ td {
   width: 100%;
 }
 .post-container .post .post-feature-image:hover {
+  box-shadow: 0 0 30px #cfcfcf;
   transform: scale(1.0082);
 }
 .post-container .post .post-abstract {
@@ -516,7 +517,8 @@ td {
   width: 100%;
   height: auto;
   margin-bottom: 24px;
-  border-radius: 2px;
+  /*文章详情页的feature-image*/
+  border-radius: 8px;
 }
 .post-detail .post .post-title {
   font-size: 32px;
@@ -564,8 +566,8 @@ td {
   display: block;
   box-shadow: 0 0 30px #eee;
   max-width: 100%;
-  border-radius: 2px;
-  margin: 24px auto;
+  border-radius: 8px;
+  margin: 10px auto;
 }
 .post-detail .post .post-content p {
   line-height: 1.62;
@@ -757,19 +759,31 @@ td {
   left: 4px;
   transition: all 0.2s ease;
 }
-.next-post {
-  text-align: center;
-  padding: 24px 32px;
+.neighber-post {
+  clear: both;
+  margin: 10px 0 25px;
+  overflow: hidden;
 }
-.next-post .next {
-  margin-bottom: 24px;
-  color: #343a40;
-  font-weight: lighter;
+.neighber-post a {
+  letter-spacing: 0.5px;
+  position: relative;
 }
-.next-post .post-title {
+.neighber-post a:hover {
+  color: #999999;
+}
+.neighber-post .post-title {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.02em;
+}
+.neighber-post .prev-post {
+  width: 50%;
+  text-align: left;
+}
+.neighber-post .next-post {
+  width: 50%;
+  float: right;
+  text-align: right;
 }
 #gitalk-container,
 #disqus_thread {
@@ -842,12 +856,34 @@ td {
   padding: 16px 24px;
   display: block;
 }
-.archives-container .post .post-title {
+.archives-container .post .post-feature-image {
+  width: 20%;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+  transition: all 0.3s;
+}
+.archives-container .post .post-feature-image img {
+  width: 100%;
+}
+.archives-container .post .post-feature-image:hover {
+  box-shadow: 0 0 30px #cfcfcf;
+  transform: scale(1.0082);
+}
+.archives-container .post .post-brief {
+  margin-left: 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.archives-container .post .post-brief .post-title {
   font-size: 16px;
   font-weight: 900;
   letter-spacing: 0.02em;
 }
-.archives-container .post .time {
+.archives-container .post .post-brief .time {
   font-size: 0.75rem;
   margin-top: 8px;
   color: #ced4da;
@@ -864,21 +900,37 @@ td {
 }
 .tags-container .tag {
   display: inline-block;
-  padding: 8px 16px;
-  margin: 8px;
-  background: #f8f9fa;
-  color: #495057;
-  border-radius: 2px;
   font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  background: #e9ecef;
+  color: #868e96;
+  margin: 16px 16px 16px 0;
+  transition: all 0.3s;
 }
 .tags-container .tag:hover {
-  background: #e9ecef;
-  color: #212529;
+  background: #E79C00;
+  color: #FFF;
+  transform: translateY(-3px);
+}
+.current-tag-container {
+  flex: 1;
+  text-align: center;
 }
 .current-tag-container .title {
+  padding: 4px 30px;
   text-align: center;
-  font-size: 18px;
-  margin-bottom: 24px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  background: #e9ecef;
+  color: #868e96;
+  transition: all 0.3s;
+}
+.current-tag-container .title:hover {
+  background: #E79C00;
+  color: #FFF;
+  transform: translateY(-3px);
 }
 .about-page {
   padding: 24px 32px;
