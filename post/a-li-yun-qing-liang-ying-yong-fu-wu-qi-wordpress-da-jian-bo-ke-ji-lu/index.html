@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>阿里云轻量应用服务器+WordPress搭建博客记录 | z&#39;s there</title>
 <meta name="description" content="要吃饱，要睡好，怎么开心怎么搞" />
-<link rel="shortcut icon" href="https://520zym.github.io//favicon.ico?v=1573748459343">
+<link rel="shortcut icon" href="https://520zym.github.io//favicon.ico?v=1573782850415">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://520zym.github.io//styles/main.css">
@@ -20,7 +20,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://520zym.github.io/">
-    <img class="avatar" src="https://520zym.github.io//images/avatar.png?v=1573748459343" alt="">
+    <img class="avatar" src="https://520zym.github.io//images/avatar.png?v=1573782850415" alt="">
   </a>
   <h1 class="site-title">
     z&#39;s there
@@ -300,7 +300,7 @@ All done!
 ​		首先执行命令“<strong>sudo vim /etc/mysql/conf.d/mysql.cnf</strong>”修改该配置文件，在**[mysqld]<strong>标签下加入一行</strong>skip-grant-tables<strong>表示登录时跳过认证，直接进入；修改之后，退出vim，执行命令</strong>service mysql restart**，重新启动mysql服务。</p>
 <figure data-type="image" tabindex="26"><img src="https://img-blog.csdnimg.cn/20190908110422310.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjY5MzUw,size_16,color_FFFFFF,t_70" alt="mysql-conf"></figure>
 <p>​		然后进入mysql，在mysql命令行下执行以下命令：</p>
-<pre><code class="language-mysql">use mysql;
+<pre><code>use mysql;
 update user set authentication_string=password(&quot;你的密码&quot;),plugin='mysql_native_password' where user='root';
 flush privileges;
 </code></pre>
@@ -310,7 +310,7 @@ flush privileges;
 ​		为方便远程连接，添加新用户username用于远程连接功能。首先登录数据库，执行命令“<strong>create user 'username'@'%' identified by '用户密码';</strong>”；其中，<strong>username</strong>表示用户名，**%**表示登录时的任意IP都可。</p>
 <figure data-type="image" tabindex="28"><img src="https://img-blog.csdnimg.cn/20190908110355324.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjY5MzUw,size_16,color_FFFFFF,t_70" alt="create-user"></figure>
 <p>​		然后，通过命令下面的命令赋予新用户需要的权限。</p>
-<pre><code class="language-mysql">grant all privileges on 'databases-name'.'tables-name' to 'username'@'ip' identified by 'password' with grant option;
+<pre><code>grant all privileges on 'databases-name'.'tables-name' to 'username'@'ip' identified by 'password' with grant option;
 flush privileges;
 </code></pre>
 <figure data-type="image" tabindex="29"><img src="https://img-blog.csdnimg.cn/20190908110337424.png" alt="privileges"></figure>

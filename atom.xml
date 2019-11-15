@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520zym.github.io/</id>
     <title>z&apos;s there</title>
-    <updated>2019-11-14T16:21:55.695Z</updated>
+    <updated>2019-11-15T01:54:43.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520zym.github.io/"/>
     <link rel="self" href="https://520zym.github.io//atom.xml"/>
@@ -55,6 +55,17 @@
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Test]]></title>
+        <id>https://520zym.github.io//post/test</id>
+        <link href="https://520zym.github.io//post/test">
+        </link>
+        <updated>2019-11-13T03:17:55.000Z</updated>
+        <summary type="html"><![CDATA[<p>Just a Test.</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Just a Test.</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[乱糟糟]]></title>
         <id>https://520zym.github.io//post/dream-day</id>
         <link href="https://520zym.github.io//post/dream-day">
@@ -86,12 +97,5 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>Github客户端下载慢的解决方法</p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Time Test]]></title>
-        <id>https://520zym.github.io//post/tQtKVuxs_</id>
-        <link href="https://520zym.github.io//post/tQtKVuxs_">
-        </link>
-        <updated>2017-11-01T14:48:27.000Z</updated>
     </entry>
 </feed>
