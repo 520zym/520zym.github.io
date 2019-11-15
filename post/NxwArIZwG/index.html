@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Github客户端下载慢的解决方法 | z&#39;s there</title>
+<title>加快github访问速度 | z&#39;s there</title>
 <meta name="description" content="要吃饱，要睡好，怎么开心怎么搞" />
 <link rel="shortcut icon" href="https://520zym.github.io//favicon.ico?v=1573790003544">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -85,11 +85,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              Github客户端下载慢的解决方法
+              加快github访问速度
             </h2>
             <div class="post-info">
               <span>
-                2019年10月03日
+                2019年11月15日
               </span>
               <span>
                 1 min read
@@ -105,33 +105,48 @@
               
             </div>
             
-              <img class="post-feature-image" src="https://520zym.github.io//post-images/github-ke-hu-duan-xia-zai-man-de-jie-jue-fang-fa.jpg" alt="">
+              <img class="post-feature-image" src="https://520zym.github.io//post-images/NxwArIZwG.png" alt="">
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>Github客户端下载慢的解决方法</p>
+                <p>由于一些原因，GitHub访问速度一般会很慢，改写hosts文件可以适当加快其访问速度</p>
 <!-- more -->
-<h1 id="github客户端下载">Github客户端下载</h1>
-<p>Github客户端的下载地址是——<a href="https://desktop.github.com/">Github客户端下载</a>。</p>
-<figure data-type="image" tabindex="1"><img src="https://img-blog.csdnimg.cn/20190813111219204.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjY5MzUw,size_16,color_FFFFFF,t_70" alt="下载页面"></figure>
-<p>但是下载速度特别慢，最快也就十几K。</p>
-<figure data-type="image" tabindex="2"><img src="https://img-blog.csdnimg.cn/20190813111646263.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjY5MzUw,size_16,color_FFFFFF,t_70" alt="下载"></figure>
-<h1 id="解决方法">解决方法</h1>
-<p>使用迅雷下载：将Github客户端的下载地址复制到迅雷中，使用迅雷进行下载，下面是实际下载时的截图，平均速度1.1MB/s。</p>
-<figure data-type="image" tabindex="3"><img src="https://img-blog.csdnimg.cn/20190813112008502.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjY5MzUw,size_16,color_FFFFFF,t_70" alt="下载速度"></figure>
-<h2 id="获取下载连接">获取下载连接</h2>
-<p>Chrome浏览器中：右键-&gt;复制链接地址；然后打开迅雷，新建任务，粘贴链接即可。</p>
-<p><strong>链接地址：</strong></p>
-<p><a href="https://desktop.githubusercontent.com/releases/2.1.0-80e9992d/GitHubDesktopSetup.exe">https://desktop.githubusercontent.com/releases/2.1.0-80e9992d/GitHubDesktopSetup.exe</a></p>
-<figure data-type="image" tabindex="4"><img src="https://img-blog.csdnimg.cn/20190813112619557.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjY5MzUw,size_16,color_FFFFFF,t_70" alt="获取链接"></figure>
+<h2 id="1-查询dns">1. 查询DNS</h2>
+<ol>
+<li>
+<p>打开 <a href="http://tool.chinaz.com/dns">http://tool.chinaz.com/dns</a>, 这是一个域名映射关系查询网站；</p>
+</li>
+<li>
+<p>查询以下几个地址，每个地址多试几次，找到相对稳定，且TTL值相对较小的几个IP：</p>
+<ol>
+<li><code>github.com</code>;</li>
+<li><code>developer.github.com</code>;</li>
+<li><code>assets-cdn.github.com</code>;</li>
+<li><code>github.global.ssl.fastly.net</code>.</li>
+</ol>
+</li>
+</ol>
+<h2 id="2-修改hosts文件">2. 修改hosts文件</h2>
+<ol>
+<li>
+<p>打开<code>hosts</code>文件，该文件位置为<code>C:\Windows\System32\drivers\etc</code>，添加IP与域名的对应关系，我的是这样的：<br>
+<img src="https://520zym.github.io//post-images/1573786091782.png" alt="github-hosts"></p>
+</li>
+<li>
+<p>保存文件之后，打开<strong>PowerShell</strong>或者管理员模式的<strong>cmd</strong>，输入命令<code>ipconfig /flushdns</code>刷新缓存；</p>
+</li>
+<li>
+<p>再次访问<a href="https://github.com">Github</a>，速度会有明显提升。</p>
+</li>
+</ol>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
-<li><a href="#github%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8B%E8%BD%BD">Github客户端下载</a></li>
-<li><a href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95">解决方法</a>
+<li>
 <ul>
-<li><a href="#%E8%8E%B7%E5%8F%96%E4%B8%8B%E8%BD%BD%E8%BF%9E%E6%8E%A5">获取下载连接</a></li>
+<li><a href="#1-%E6%9F%A5%E8%AF%A2dns">1. 查询DNS</a></li>
+<li><a href="#2-%E4%BF%AE%E6%94%B9hosts%E6%96%87%E4%BB%B6">2. 修改hosts文件</a></li>
 </ul>
 </li>
 </ul>
@@ -145,13 +160,22 @@
           
             <div class="prev-post">
               <div class="prev">👈上一篇</div>
-              <a href="https://520zym.github.io//post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu">
+              <a href="https://520zym.github.io//post/gPXRtgwYF">
                 <h3 class="post-title">
-                  阿里云轻量应用服务器+WordPress搭建博客记录
+                  网页长截图插件——fireShot
                 </h3>
               </a>
             </div>
           
+          
+            <div class="next-post">
+              <div class="next">下一篇👉</div>
+              <a href="https://520zym.github.io//post/test">
+                <h3 class="post-title">
+                  Test
+                </h3>
+              </a>
+            </div>
           
         </div>
 

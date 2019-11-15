@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520zym.github.io/</id>
     <title>z&apos;s there</title>
-    <updated>2019-11-15T02:25:23.788Z</updated>
+    <updated>2019-11-15T03:53:49.891Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520zym.github.io/"/>
     <link rel="self" href="https://520zym.github.io//atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://520zym.github.io//images/avatar.png</logo>
     <icon>https://520zym.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, z&apos;s there</rights>
+    <entry>
+        <title type="html"><![CDATA[🛶 谷歌上网助手插件]]></title>
+        <id>https://520zym.github.io//post/KsPROScrm</id>
+        <link href="https://520zym.github.io//post/KsPROScrm">
+        </link>
+        <updated>2019-11-15T03:31:44.000Z</updated>
+        <summary type="html"><![CDATA[<p>安装谷歌上网助手插件，可以无障碍浏览Google系列网站</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>安装谷歌上网助手插件，可以无障碍浏览Google系列网站</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网页长截图插件——fireShot]]></title>
+        <id>https://520zym.github.io//post/gPXRtgwYF</id>
+        <link href="https://520zym.github.io//post/gPXRtgwYF">
+        </link>
+        <updated>2019-11-15T03:10:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>特定情境下，需要对某一网页进行长截图，常用的截图工具并不能完成此功能。FireShot就是一个极好用的截图插件。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>特定情境下，需要对某一网页进行长截图，常用的截图工具并不能完成此功能。FireShot就是一个极好用的截图插件。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加快github访问速度]]></title>
+        <id>https://520zym.github.io//post/NxwArIZwG</id>
+        <link href="https://520zym.github.io//post/NxwArIZwG">
+        </link>
+        <updated>2019-11-15T02:35:14.000Z</updated>
+        <summary type="html"><![CDATA[<p>由于一些原因，GitHub访问速度一般会很慢，改写hosts文件可以适当加快其访问速度</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>由于一些原因，GitHub访问速度一般会很慢，改写hosts文件可以适当加快其访问速度</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Test]]></title>
         <id>https://520zym.github.io//post/test</id>
@@ -27,9 +60,9 @@
         <link href="https://520zym.github.io//post/9AWuj_uFR">
         </link>
         <updated>2019-11-14T15:32:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>我好难啊 😰</p>
+        <summary type="html"><![CDATA[<p>整理了好长时间的Blog，我好难啊 😰</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>我好难啊 😰</p>
+        <content type="html"><![CDATA[<p>整理了好长时间的Blog，我好难啊 😰</p>
 ]]></content>
     </entry>
     <entry>
@@ -85,17 +118,6 @@
         <summary type="html"><![CDATA[<p>靠着阿里云学生优惠，买了一台轻量应用服务器来折腾。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>靠着阿里云学生优惠，买了一台轻量应用服务器来折腾。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Github客户端下载慢的解决方法]]></title>
-        <id>https://520zym.github.io//post/github-ke-hu-duan-xia-zai-man-de-jie-jue-fang-fa</id>
-        <link href="https://520zym.github.io//post/github-ke-hu-duan-xia-zai-man-de-jie-jue-fang-fa">
-        </link>
-        <updated>2019-10-03T15:42:12.000Z</updated>
-        <summary type="html"><![CDATA[<p>Github客户端下载慢的解决方法</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Github客户端下载慢的解决方法</p>
 ]]></content>
     </entry>
 </feed>
