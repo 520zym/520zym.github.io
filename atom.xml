@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://imoym.coding.me/imoym</id>
+    <id>https://imoym.coding.me/</id>
     <title>z&apos;s there</title>
-    <updated>2019-11-15T15:15:59.910Z</updated>
+    <updated>2019-11-15T15:30:29.900Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://imoym.coding.me/imoym"/>
-    <link rel="self" href="https://imoym.coding.me/imoym/atom.xml"/>
+    <link rel="alternate" href="https://imoym.coding.me/"/>
+    <link rel="self" href="https://imoym.coding.me//atom.xml"/>
     <subtitle>要吃饱，要睡好，怎么开心怎么搞</subtitle>
-    <logo>https://imoym.coding.me/imoym/images/avatar.png</logo>
-    <icon>https://imoym.coding.me/imoym/favicon.ico</icon>
+    <logo>https://imoym.coding.me//images/avatar.png</logo>
+    <icon>https://imoym.coding.me//favicon.ico</icon>
     <rights>All rights reserved 2019, z&apos;s there</rights>
     <entry>
         <title type="html"><![CDATA[🛶 谷歌上网助手插件]]></title>
-        <id>https://imoym.coding.me/imoym/post/KsPROScrm</id>
-        <link href="https://imoym.coding.me/imoym/post/KsPROScrm">
+        <id>https://imoym.coding.me//post/KsPROScrm</id>
+        <link href="https://imoym.coding.me//post/KsPROScrm">
         </link>
         <updated>2019-11-15T03:31:44.000Z</updated>
         <summary type="html"><![CDATA[<p>安装谷歌上网助手插件，可以无障碍浏览Google系列网站</p>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[网页长截图插件——fireShot]]></title>
-        <id>https://imoym.coding.me/imoym/post/gPXRtgwYF</id>
-        <link href="https://imoym.coding.me/imoym/post/gPXRtgwYF">
+        <id>https://imoym.coding.me//post/gPXRtgwYF</id>
+        <link href="https://imoym.coding.me//post/gPXRtgwYF">
         </link>
         <updated>2019-11-15T03:10:50.000Z</updated>
         <summary type="html"><![CDATA[<p>特定情境下，需要对某一网页进行长截图，常用的截图工具并不能完成此功能。FireShot就是一个极好用的截图插件。</p>
@@ -34,8 +34,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[加快github访问速度]]></title>
-        <id>https://imoym.coding.me/imoym/post/NxwArIZwG</id>
-        <link href="https://imoym.coding.me/imoym/post/NxwArIZwG">
+        <id>https://imoym.coding.me//post/NxwArIZwG</id>
+        <link href="https://imoym.coding.me//post/NxwArIZwG">
         </link>
         <updated>2019-11-15T02:35:14.000Z</updated>
         <summary type="html"><![CDATA[<p>由于一些原因，GitHub访问速度一般会很慢，改写hosts文件可以适当加快其访问速度</p>
@@ -45,8 +45,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Test]]></title>
-        <id>https://imoym.coding.me/imoym/post/test</id>
-        <link href="https://imoym.coding.me/imoym/post/test">
+        <id>https://imoym.coding.me//post/test</id>
+        <link href="https://imoym.coding.me//post/test">
         </link>
         <updated>2019-11-15T02:11:07.000Z</updated>
         <summary type="html"><![CDATA[<p>Just a Test.</p>
@@ -56,8 +56,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[😢 我好菜]]></title>
-        <id>https://imoym.coding.me/imoym/post/9AWuj_uFR</id>
-        <link href="https://imoym.coding.me/imoym/post/9AWuj_uFR">
+        <id>https://imoym.coding.me//post/9AWuj_uFR</id>
+        <link href="https://imoym.coding.me//post/9AWuj_uFR">
         </link>
         <updated>2019-11-14T15:32:53.000Z</updated>
         <summary type="html"><![CDATA[<p>整理了好长时间的Blog，我好难啊 😰</p>
@@ -67,8 +67,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Flag高高挂起]]></title>
-        <id>https://imoym.coding.me/imoym/post/4oIU-mR82</id>
-        <link href="https://imoym.coding.me/imoym/post/4oIU-mR82">
+        <id>https://imoym.coding.me//post/4oIU-mR82</id>
+        <link href="https://imoym.coding.me//post/4oIU-mR82">
         </link>
         <updated>2019-11-14T03:40:05.000Z</updated>
         <summary type="html"><![CDATA[<p>在这里，想立下一个flag🚩，定下一些目标</p>
@@ -78,8 +78,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[🤠《红辣椒》]]></title>
-        <id>https://imoym.coding.me/imoym/post/pybH6IhSr</id>
-        <link href="https://imoym.coding.me/imoym/post/pybH6IhSr">
+        <id>https://imoym.coding.me//post/pybH6IhSr</id>
+        <link href="https://imoym.coding.me//post/pybH6IhSr">
         </link>
         <updated>2019-11-13T11:46:26.000Z</updated>
         <summary type="html"><![CDATA[<p>今敏大师的杰作之一，对后来的大作《盗梦空间》有着很大的影响。</p>
@@ -89,8 +89,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[要自闭了]]></title>
-        <id>https://imoym.coding.me/imoym/post/yao-zi-bi-liao</id>
-        <link href="https://imoym.coding.me/imoym/post/yao-zi-bi-liao">
+        <id>https://imoym.coding.me//post/yao-zi-bi-liao</id>
+        <link href="https://imoym.coding.me//post/yao-zi-bi-liao">
         </link>
         <updated>2019-11-13T11:35:34.000Z</updated>
         <summary type="html"><![CDATA[<p>日常自闭。</p>
@@ -100,8 +100,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[乱糟糟]]></title>
-        <id>https://imoym.coding.me/imoym/post/dream-day</id>
-        <link href="https://imoym.coding.me/imoym/post/dream-day">
+        <id>https://imoym.coding.me//post/dream-day</id>
+        <link href="https://imoym.coding.me//post/dream-day">
         </link>
         <updated>2019-11-07T12:59:23.000Z</updated>
         <summary type="html"><![CDATA[<p>心里一团糟，迷茫，惊恐，不知所措。</p>
@@ -111,8 +111,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[阿里云轻量应用服务器+WordPress搭建博客记录]]></title>
-        <id>https://imoym.coding.me/imoym/post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu</id>
-        <link href="https://imoym.coding.me/imoym/post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu">
+        <id>https://imoym.coding.me//post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu</id>
+        <link href="https://imoym.coding.me//post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu">
         </link>
         <updated>2019-10-03T15:48:12.000Z</updated>
         <summary type="html"><![CDATA[<p>靠着阿里云学生优惠，买了一台轻量应用服务器来折腾。</p>
