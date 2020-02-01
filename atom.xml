@@ -2,14 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520zym.github.io</id>
     <title>z&apos;s there</title>
-    <updated>2019-11-15T15:46:52.145Z</updated>
+    <updated>2020-02-01T12:20:16.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520zym.github.io"/>
     <link rel="self" href="https://520zym.github.io/atom.xml"/>
     <subtitle>要吃饱，要睡好，怎么开心怎么搞</subtitle>
     <logo>https://520zym.github.io/images/avatar.png</logo>
     <icon>https://520zym.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, z&apos;s there</rights>
+    <rights>All rights reserved 2020, z&apos;s there</rights>
+    <entry>
+        <title type="html"><![CDATA[计算机诗人]]></title>
+        <id>https://520zym.github.io/post/LyXxU1VS8</id>
+        <link href="https://520zym.github.io/post/LyXxU1VS8">
+        </link>
+        <updated>2020-02-01T11:52:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>刘慈欣出品，必属精品</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>刘慈欣出品，必属精品</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🛶 谷歌上网助手插件]]></title>
         <id>https://520zym.github.io/post/KsPROScrm</id>
@@ -107,17 +118,6 @@
         <summary type="html"><![CDATA[<p>心里一团糟，迷茫，惊恐，不知所措。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>心里一团糟，迷茫，惊恐，不知所措。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[阿里云轻量应用服务器+WordPress搭建博客记录]]></title>
-        <id>https://520zym.github.io/post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu</id>
-        <link href="https://520zym.github.io/post/a-li-yun-qing-liang-ying-yong-fu-wu-qi-wordpress-da-jian-bo-ke-ji-lu">
-        </link>
-        <updated>2019-10-03T15:48:12.000Z</updated>
-        <summary type="html"><![CDATA[<p>靠着阿里云学生优惠，买了一台轻量应用服务器来折腾。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>靠着阿里云学生优惠，买了一台轻量应用服务器来折腾。</p>
 ]]></content>
     </entry>
 </feed>
