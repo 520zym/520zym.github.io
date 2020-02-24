@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://520zym.github.io</id>
     <title>z&apos;s there</title>
-    <updated>2020-02-01T12:20:16.552Z</updated>
+    <updated>2020-02-24T09:54:09.624Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://520zym.github.io"/>
     <link rel="self" href="https://520zym.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://520zym.github.io/images/avatar.png</logo>
     <icon>https://520zym.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, z&apos;s there</rights>
+    <entry>
+        <title type="html"><![CDATA[ADPR: An Attention-based Deep Learning Point-of-Interest Recommendation Framework]]></title>
+        <id>https://520zym.github.io/post/c9KnPpo79</id>
+        <link href="https://520zym.github.io/post/c9KnPpo79">
+        </link>
+        <updated>2020-02-24T07:40:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>基于深度学习的POI推荐。POI推荐的任务是<strong>发现用户兴趣点，而非去预测</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>基于深度学习的POI推荐。POI推荐的任务是<strong>发现用户兴趣点，而非去预测</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[计算机诗人]]></title>
         <id>https://520zym.github.io/post/LyXxU1VS8</id>
@@ -107,17 +118,6 @@
         <summary type="html"><![CDATA[<p>日常自闭。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>日常自闭。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[乱糟糟]]></title>
-        <id>https://520zym.github.io/post/dream-day</id>
-        <link href="https://520zym.github.io/post/dream-day">
-        </link>
-        <updated>2019-11-07T12:59:23.000Z</updated>
-        <summary type="html"><![CDATA[<p>心里一团糟，迷茫，惊恐，不知所措。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>心里一团糟，迷茫，惊恐，不知所措。</p>
 ]]></content>
     </entry>
 </feed>
